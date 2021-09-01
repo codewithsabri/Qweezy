@@ -1,6 +1,9 @@
 # Qweezy
 Education plateform based on Quizz game
 
+Front end en React,Redux  hebergé sur firebase
+Backend Nodejs,Express hebergé sur heroku
+Base de donnée, mongodb sur Atlas (service cloud)
 
 Pour tester le projet se rendre sur le lien :  https://lovemydin-54f07.web.app/    
 
