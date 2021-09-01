@@ -1,0 +1,91 @@
+
+
+.card-block {
+  text-align: center;
+  vertical-align: center;
+  color: rgb(61, 60, 66);
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 25px;
+
+}
+
+.card-title {
+  color: rgb(99, 99, 115);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mef-button {
+  background-color: #36ab9d;
+  border-style: ridge;
+  align-items: center;
+  width: 125px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.mef-salat {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.mef-categorie {
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+.grille-categorie {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .grille-categorie {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: repeat(2, auto);
+
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .grille-categorie {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: repeat(2, auto);
+
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .grille-categorie {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    grid-template-rows: repeat(2, auto);
+
+    grid-gap: 1rem;
+  }
+}

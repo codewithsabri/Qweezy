@@ -1,0 +1,10 @@
+.mef-connexion {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span p:hover {
+  cursor: pointer;
+}

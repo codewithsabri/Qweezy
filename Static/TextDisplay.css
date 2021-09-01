@@ -1,0 +1,23 @@
+.news-wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.news {
+  margin: 1rem;
+  text-align: center;
+  background-color: #f8f8fb;
+  padding: 25px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(63, 177, 163);
+  margin-bottom: 25px;
+  width: 400px;
+}
+
+.news h4 {
+  margin: 1rem;
+}

@@ -1,0 +1,114 @@
+.mef-formconnexion {
+  background-color: rgb(75, 119, 78);
+  padding: 20px;
+  margin-top: 25px;
+  border: 10px;
+  color: rgb(255, 247, 244);
+  align-items: center;
+  width: 500px;
+  justify-content: right;
+}
+
+.btn-lmd {
+  background-color: #87e1cf !important;
+  color: rgb(253, 250, 255);
+  border-color: transparent !important;
+  font-weight: bold;
+  float: inline-start;
+  padding: 25px;
+}
+
+.btn-ldm:focus {
+  border-color: #36ab9d !important;
+  box-shadow: inset 0 1px 1px rgb(75, 119, 78), 0 0 8px rgb(75, 119, 78) !important;
+  font-weight: bold;
+}
+
+.mef-title {
+  text-align: center;
+  margin-top: 25px;
+  color: rgb(75, 119, 78);
+}
+
+.mef-button-position {
+  text-align: center;
+  color: rgb(99, 99, 115);
+}
+
+.mef-placeholder {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.btn-primary {
+  border-color: transparent !important;
+  background-color: "Transparent" !important;
+}
+
+.social-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.mef-stepRegister {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.forgot-password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.forgot-password input {
+  padding: 10px 30px;
+}
+
+.mef-label {
+  font-weight: 400;
+}
+
+.mef-title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.form-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.text-muted:hover {
+  cursor: pointer
+}
+
+.fade-appear {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 600ms linear;
+}
+
+/* enter */
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
